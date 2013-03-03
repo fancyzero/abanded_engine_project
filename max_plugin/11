@@ -1,0 +1,11 @@
+Node Name: Sphere01
+
+Material Name-> 01 - Default
+Material Type->Blinn
+Ambient Value->(color 150 150 150)
+Diffuse Value->(color 150 150 150)
+Specular Value->(color 229.5 229.5 229.5)
+SpecularLevel Value->0.0
+Glossiness Value->10.0
+SelfIllumColor Value->(color 0 0 0)
+SelfIllumAmount Value->0.0

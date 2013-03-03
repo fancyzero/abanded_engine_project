@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioToolFile
+	Name="swig interface file"
+	Version="8.00"
+	>
+	<Rules>
+		<CustomBuildRule
+			Name="swig python c++ wrapper"
+			DisplayName="SWIG Interface"
+			CommandLine="f:\mm2\sdk\swigwin-1.3.40\swig.exe -python -c++ [inputs]"
+			Outputs="$(InputName).cxx"
+			FileExtensions="*.i"
+			ExecutionDescription="generate swig python wrap"
+			>
+			<Properties>
+			</Properties>
+		</CustomBuildRule>
+	</Rules>
+</VisualStudioToolFile>

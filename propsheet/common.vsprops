@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="common"
+	OutputDirectory="$(RunDir)"
+	IntermediateDirectory="$(SolutionDir)temp\$(ProjectName)\$(PlatformName)\$(ConfigurationName)"
+	BuildLogFile="$(SolutionDir)\temp\$(ProjectName)\$(PlatformName)\$(ConfigurationName)\BuildLog.htm"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="..\..\..\sdk\freetype\include;&quot;..\..\..\sdk\Python-2.6.4\include&quot;;&quot;..\..\..\sdk\Python-2.6.4\pc&quot;;..\..\..\sdk\boost_1_40_0;..\..\..\sdk\wtl\include"
+		PreprocessorDefinitions="_SECURE_ATL"
+		WarningLevel="3"
+		WarnAsError="false"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="winmm.lib d3dx9.lib d3d9.lib dxguid.lib"
+		OutputFile=""
+		AdditionalLibraryDirectories="..\..\..\sdk\freetype\objs;..\..\..\sdk\python\libs"
+		ProgramDatabaseFile="$(IntDir)\$(TargetName).pdb"
+	/>
+	<UserMacro
+		Name="RunDir"
+		Value="$(SolutionDir)..\RunDir\"
+	/>
+</VisualStudioPropertySheet>

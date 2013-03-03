@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="pydoutput"
+	>
+	<Tool
+		Name="VCLinkerTool"
+		OutputFile="$(OutDir)Python\Lib\site-packages\$(ProjectName)_$(ConfigurationName)_$(PlatformName).pyd"
+		ImportLibrary="$(IntDir)\$(ProjectName)_$(ConfigurationName)_$(PlatformName).lib"
+	/>
+</VisualStudioPropertySheet>
